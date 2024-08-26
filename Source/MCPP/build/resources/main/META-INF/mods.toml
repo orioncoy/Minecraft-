@@ -1,0 +1,50 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "mcpp"
+version = "0.0.0.1"
+displayName = "Plus Plus"
+authors = "d_53ori"
+description = '''test'''
+
+[[dependencies."mcpp"]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."mcpp"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+
+
+#modLoader = "javafml"
+#loaderVersion = "[47,)"
+#license = "All Rights Reserved"
+
+#[[mods]]
+#modId = "mcpp"
+#version = "1.0-SNAPSHOT"
+#displayName = "MCPP"
+#authors = ""
+#description = ''''''
+
+#[[dependencies."mcpp"]]
+#modId = "forge"
+#mandatory = true
+#versionRange = "[47,)"
+#ordering = "NONE"
+#side = "BOTH"
+
+#[[dependencies."mcpp"]]
+#modId = "minecraft"
+#versionRange = "[1.20.1,1.21)"
+#ordering = "NONE"
+#side = "BOTH"
