@@ -1,16 +1,16 @@
+# all null stuff is in gradle.properties file
+
 modLoader = "javafml"
 loaderVersion = "[47,)"
 license = "All Rights Reserved"
 
 [[mods]]
 modId = "mcpp"
-version = "0.0.0.0"
-displayName = "Plus Plus"
-displayURL="https://github.com/orioncoy/MinecraftPlusPlus/settings"
+version = "1.0-SNAPSHOT"
+displayName = "MCPP"
+#displayURL="https://github.com/orioncoy/MinecraftPlusPlus/"
 authors = "d_53ori"
-description = '''
-test
-'''
+description = ''''''
 
 [[dependencies."mcpp"]]
 modId = "forge"
@@ -36,7 +36,7 @@ side = "BOTH"
 #modId = "mcpp"
 #version = "1.0-SNAPSHOT"
 #displayName = "MCPP"
-#authors = ""
+#authors = "d_53ori"
 #description = ''''''
 
 #[[dependencies."mcpp"]]
