@@ -4,10 +4,13 @@ license = "All Rights Reserved"
 
 [[mods]]
 modId = "mcpp"
-version = "0.0.0.1"
+version = "0.0.0.0"
 displayName = "Plus Plus"
+displayURL="https://github.com/orioncoy/MinecraftPlusPlus/settings"
 authors = "d_53ori"
-description = '''test'''
+description = '''
+test
+'''
 
 [[dependencies."mcpp"]]
 modId = "forge"
@@ -23,7 +26,7 @@ versionRange = "[1.20.1,1.21)"
 ordering = "NONE"
 side = "BOTH"
 
-
+# REFERENCE
 
 #modLoader = "javafml"
 #loaderVersion = "[47,)"
