@@ -15,7 +15,7 @@ public class ItemInit {
             Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()
-                    .nutrition(5)
+                    .nutrition(3)
                     .saturationMod(0.2f)
                     .build())
             .rarity(Rarity.EPIC)
