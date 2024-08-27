@@ -7,6 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2024-08-26 18:41:32 -0700",
+      "minecraft:lukewarm_ocean": "2024-08-26 18:41:34 -0700",
+      "minecraft:river": "2024-08-26 18:41:33 -0700",
       "minecraft:savanna": "2024-08-26 03:08:18 -0700",
       "minecraft:plains": "2024-08-26 03:08:05 -0700"
     },
