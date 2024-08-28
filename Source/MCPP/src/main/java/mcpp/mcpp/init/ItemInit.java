@@ -11,12 +11,12 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mcpp.MODID);
 
-    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example", () -> new Item(new
+    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new
             Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()
-                    .nutrition(3)
-                    .saturationMod(0.2f)
+                    .nutrition(8)
+                    .saturationMod(1)
                     .build())
             .rarity(Rarity.EPIC)
     ));

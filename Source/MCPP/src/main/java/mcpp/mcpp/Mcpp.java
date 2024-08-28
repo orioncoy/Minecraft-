@@ -1,6 +1,7 @@
 package mcpp.mcpp;
 
 import com.mojang.logging.LogUtils;
+import mcpp.mcpp.init.BlockInit;
 import mcpp.mcpp.init.ItemInit;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -39,5 +40,6 @@ public class Mcpp {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
     }
 }
