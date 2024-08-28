@@ -1,7 +1,7 @@
 {
   "varianys": {
     "": {
-      "model": ""
+      "model": "mccp:block/example_block"
     }
   }
 }
