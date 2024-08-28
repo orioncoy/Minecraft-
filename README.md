@@ -6,5 +6,3 @@ This mod is focused on enhancing the vanilla experience.
 * [Snapshots](https://github.com/orioncoy/MinecraftPlusPlus/tree/main/Snapshots)
 
 More information incoming.
-
-I'm ouppy
