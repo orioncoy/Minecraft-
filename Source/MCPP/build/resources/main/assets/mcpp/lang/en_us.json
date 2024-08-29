@@ -1,4 +1,5 @@
 {
   "item.mcpp.example_item": "jojos brain",
-  "block.mcpp.example_block": "rosies stink"
+  "block.mcpp.example_block": "rosies stink",
+  "itemGroup.example_tab": "stupid ass tab"
 }

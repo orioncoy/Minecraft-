@@ -2,6 +2,7 @@ package mcpp.mcpp;
 
 import com.mojang.logging.LogUtils;
 import mcpp.mcpp.init.BlockInit;
+import mcpp.mcpp.init.CreativeTabInit;
 import mcpp.mcpp.init.ItemInit;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -41,5 +42,6 @@ public class Mcpp {
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        CreativeTabInit.TABS.register(bus);
     }
 }
