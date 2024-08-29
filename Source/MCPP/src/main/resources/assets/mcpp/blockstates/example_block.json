@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mccp:block/example_block"
+      "model": "mcpp:block/example_block"
     }
   }
 }
