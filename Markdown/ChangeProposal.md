@@ -17,7 +17,7 @@ I want this document to act as the wall I throw my spaghetti at, see what sticks
 	- End Gateways
 		- When end gateways spawn, have a beacon spawn above them, offering better visibility.
 		- Each beacon has a unique color to identify locations. 
-        
+
 ## Mobs
 - Phantoms
 	- Genuinely baffle how these FUCKERS were added to this game. I hate phantoms so much.
@@ -30,3 +30,27 @@ I want this document to act as the wall I throw my spaghetti at, see what sticks
 		- Increase phantom membrane repair power to elytra.
 - Enderman
 	- take away block cringe!
+
+## Gameplay (not organized yet)
+- Accessory Slots
+	- 
+- accessories slot where items can be equipped to passively apply effects
+	- remove effects from armor that should be an accessory, water breathing etc.
+	- Accessories can be either found, purchased or crafted (maybe)
+- Introduce armor sets and armor to cater to other play styles
+	- builder sets, miner sets, combat sets etc.
+- Enchantments that enhance certain play styles
+	- Quickdraw, increases player attack speed etc
+- Pinnacle items
+	- Items gained through milestones
+	- one per character, allows for a large leap in power or ability
+	- Example, extra row of health or armor, larger inventory
+	- Loadouts
+	- Keep inventory
+	- Etc
+	- One PI equip-able max, even with loadouts
+	- Wont drop on death
+	- Guaranteed drop on first kill of a boss, random on all subsequent fights
+- dedicated slots for emeralds and ammo
+	- Helps to clean up and manage inventory
+- Artifact book
