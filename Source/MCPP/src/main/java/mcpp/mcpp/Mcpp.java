@@ -38,8 +38,10 @@ public class Mcpp {
     public static final String MODID = "mcpp";
 
     public Mcpp() {
+        // establishes the bus
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // registers each DeferredRegister found in the init classes to the bus
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         CreativeTabInit.TABS.register(bus);
