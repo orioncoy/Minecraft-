@@ -17,7 +17,8 @@ public class BlockInit {
     // Creates the DeferredRegister that is then registered to the bus
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Mcpp.MODID);
 
-    
+    // Example block and corresponding block item
+    // block items are stored in this class as opposed to ItemInit because of organization
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_GREEN)

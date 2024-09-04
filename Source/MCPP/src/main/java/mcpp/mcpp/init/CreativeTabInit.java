@@ -8,13 +8,16 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 public class CreativeTabInit {
+    // Creates the DeferredRegister that is then registered to the bus
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Mcpp.MODID);
 
+    // Creates the DeferredRegister that is then registered to the bus
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = TABS.register("example_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.example_tab"))
                     .icon(ItemInit.EXAMPLE_ITEM.get()::getDefaultInstance)
                     .displayItems((displayParams, output) -> {
+                        // items are added here
                         output.accept(ItemInit.EXAMPLE_ITEM.get());
                         output.accept(BlockInit.EXAMPLE_BLOCK_ITEM.get());
                     })
