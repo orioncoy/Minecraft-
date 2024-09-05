@@ -2,6 +2,7 @@
 layout: page
 title: "Proposed Changes"
 permalink: /changes/proposed
+order: 2
 ---
 
 ## Purpose of this document,
