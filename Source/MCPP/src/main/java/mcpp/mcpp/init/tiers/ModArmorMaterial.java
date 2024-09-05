@@ -65,7 +65,7 @@ public class ModArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return Mcpp.MODID + ":" + this.name;
+        return /*Mcpp.MODID + ":" + */this.name;
     }
 
     @Override
