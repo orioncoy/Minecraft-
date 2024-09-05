@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Changes"
-permalink: /changes
+title: "Proposed Changes"
+permalink: /changes/proposed
 ---
 
 ## Purpose of this document,
