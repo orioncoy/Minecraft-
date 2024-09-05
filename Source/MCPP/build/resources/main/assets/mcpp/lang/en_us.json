@@ -3,13 +3,13 @@
   "item.mcpp.example_item": "jojos brain",
   "block.mcpp.example_block": "rosies stink",
   "itemGroup.example_tab": "stupid ass tab",
-  "item.mcpp.example_sword": "glass sword",
-  "item.mcpp.example_pickaxe": "glass pickaxe",
-  "item.mcpp.example_axe": "glass axe",
-  "item.mcpp.example_hoe": " glass hoe",
-  "item.mcpp.example_shovel": "glass shovel",
-  "item.mcpp.example_helmet": "glass helmet",
-  "item.mcpp.example_chestplate": "glass chestplate",
-  "item.mcpp.example_leggings": "glass leggings",
-  "item.mcpp.example_boots": "glass boots"
+  "item.mcpp.example_sword": "Glass Sword",
+  "item.mcpp.example_pickaxe": "Glass Pickaxe",
+  "item.mcpp.example_axe": "Glass Axe",
+  "item.mcpp.example_hoe": " Glass Hoe",
+  "item.mcpp.example_shovel": "Glass Shovel",
+  "item.mcpp.example_helmet": "Glass Helmet",
+  "item.mcpp.example_chestplate": "Glass Chestplate",
+  "item.mcpp.example_leggings": "Glass Leggings",
+  "item.mcpp.example_boots": "Glass Boots"
 }
