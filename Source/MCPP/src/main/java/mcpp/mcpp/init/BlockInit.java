@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import static mcpp.mcpp.init.CreativeTabInit.addToTab;
 import static mcpp.mcpp.init.ItemInit.ITEMS;
 
 public class BlockInit {
@@ -19,14 +20,16 @@ public class BlockInit {
 
     // Example block and corresponding block item
     // block items are stored in this class as opposed to ItemInit because of organization
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.COLOR_GREEN)
-                    .strength(5.0f, 17f)
-                    .lightLevel(state -> 10)
-            ));
-    public static final RegistryObject<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block_item",
-            () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties()
-                    .rarity(Rarity.UNCOMMON)
-            ));
+    public static final RegistryObject<Block> EXAMPLE_BLOCK =
+            addToTab(BLOCKS.register("example_block", () -> new Block(
+                    BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_GREEN)
+                            .strength(5.0f, 17f)
+                            .lightLevel(state -> 10)
+            )));
+    public static final RegistryObject<BlockItem> EXAMPLE_BLOCK_ITEM =
+            addToTab(ITEMS.register("example_block_item", () -> new
+                    BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties()
+                            .rarity(Rarity.UNCOMMON)
+            )));
 }
