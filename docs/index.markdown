@@ -5,5 +5,4 @@
 layout: home
 ---
 
-## MinecraftPlusPlus Home
 oh yeahhhhh
