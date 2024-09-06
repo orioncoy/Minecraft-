@@ -1,5 +1,5 @@
 # MinecraftPlusPlus
-This mod is focused on enhancing the vanilla experience.
+This branch exists strictly for messin around, no serious business here!
 
 # All future changes will be listed on the github pages located here
 ## [GH Pages](https://orioncoy.github.io/MinecraftPlusPlus/)
