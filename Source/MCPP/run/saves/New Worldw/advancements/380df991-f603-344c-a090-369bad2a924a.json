@@ -7,10 +7,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2024-09-06 03:17:37 -0700",
       "minecraft:snowy_plains": "2024-09-06 02:35:00 -0700",
       "minecraft:ice_spikes": "2024-09-06 02:35:09 -0700"
     },
     "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-09-06 03:17:28 -0700"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
