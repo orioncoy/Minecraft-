@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Proposed Changes"
-permalink: /changes/proposed
+title: "Mod Plan"
+permalink: /changes/modplan
 order: 2
 ---
 
