@@ -11,5 +11,9 @@
   "item.mcpp.example_helmet": "Glass Helmet",
   "item.mcpp.example_chestplate": "Glass Chestplate",
   "item.mcpp.example_leggings": "Glass Leggings",
-  "item.mcpp.example_boots": "Glass Boots"
+  "item.mcpp.example_boots": "Glass Boots",
+  "block.mcpp.example_ore": "example ore",
+  "block.mcpp.deepslate_ore": "deepass lore",
+  "block.mcpp.nether_example_ore": "nether ore",
+  "block.mcpp.end_example_ore": "end ore"
 }
