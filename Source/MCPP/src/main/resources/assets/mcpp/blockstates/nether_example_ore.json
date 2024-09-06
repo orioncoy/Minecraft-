@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mcpp:block/nether_example_ore"
+    }
+  }
+}
