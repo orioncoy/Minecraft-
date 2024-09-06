@@ -24,7 +24,6 @@ public class CreativeTabInit {
                     .title(Component.translatable("itemGroup.example_tab"))
                     .icon(ItemInit.EXAMPLE_ITEM.get()::getDefaultInstance)
                     .displayItems((displayParams, output) ->
-                            // items are added here
                             EXAMPLE_TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get())
                             ))
                     .build()
